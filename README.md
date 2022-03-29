@@ -2,4 +2,4 @@
 All projects from OKI with English descriptions
 
 # Implemented projects
-class implementing queue in C++
+class implementing queue in C++ without using the one wich is already implemented in STL
