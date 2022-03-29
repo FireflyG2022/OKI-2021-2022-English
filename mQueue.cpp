@@ -1,23 +1,32 @@
 /*
 //class implementing queue in C++
-//the same functionality as STL (Standard Template Library) clas queue in C++
+//the same functionality as STL (Standard Template Library ) class queue in C++ 
 //with usage example
-//version 1.1
+//Version 1.2
 Consists
-a. Program Template
-b. Added class mQueue
-Author: Olaf Świetlik: Olimpijskie Koło Informatyczne
-*/
+a. Program template
+b. defintion of class mqueue 
+c. Constructor
+Author: Olaf Swietlik / Olimpijskie Kolo Informatyczne
+ */
+ 
 #include <iostream>
 #include <vector>
 using namespace std;
 
-class mQueue {
-   vector<int>elements;
-   int first,last;
-};
+class mqueue {
+public:
+ mqueue() { 
+    first = last = -1;
+ } 
+private:
+ vector<int> elements;
+ int first, last;
+};	
 
-int main(){
-    mQueue payments;
-    return 0;
+int main() {
+ mqueue	payments;
+ mqueue	payments2;
+
+ return 0;
 }
