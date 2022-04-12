@@ -4,16 +4,18 @@ Gra Dino v. 1.1 by OKI - Olimpijskie Kolo Informatyczne
 Kod / omowienie / linki: https://oki.org.pl/dino
 Wersje:
 1.0 - Strona www z tekstem
-1.1 - Dodanie kolorowego płutna canvas
+1.1 - Dodanie kolorowego płótna canvas
+1.2 - Dodanie ziemii
 -->
 <html>
 <head>
+    <title>Gra Dinozaur</title>
 </head>
  
 <body>
 
 <div>
-<strong>Gra Dino v1.0 by FireflyG</strong>   
+<strong>Gra Dino v1.1 by FireflyG</strong>   
 <br />Dino idzie przez pustynie.
 </div>
 
@@ -27,9 +29,12 @@ plansza = document.getElementById("plansza_canvas");
 rysowanie = plansza.getContext("2d");  
 
 //                        Red Green Blue
-rysowanie.fillStyle = "rgb(249,218,255)";    
+rysowanie.fillStyle = "rgb(124,231,247)";    
 rysowanie.fillRect(0,0,600, 200);
 
+//Rysowanie ziemii
+rysowanie.fillStyle = "rgb(99, 10, 4)";    
+rysowanie.fillRect(0,170,600,5);
 </script>
 
 </body> 
