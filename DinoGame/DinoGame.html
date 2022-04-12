@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<!--
+Gra Dino v. 1.1 by OKI - Olimpijskie Kolo Informatyczne
+Kod / omowienie / linki: https://oki.org.pl/dino
+Wersje:
+1.0 - Strona www z tekstem
+1.1 - Dodanie kolorowego płutna canvas
+-->
+<html>
+<head>
+</head>
+ 
+<body>
 
+<div>
+<strong>Gra Dino v1.0 by FireflyG</strong>   
+<br />Dino idzie przez pustynie.
+</div>
+
+<canvas id="plansza_canvas" width="600px" height="200px">
+</canvas>
+
+<script>
+let plansza, rysowanie;
+ 
+plansza = document.getElementById("plansza_canvas");
+rysowanie = plansza.getContext("2d");  
+
+//                        Red Green Blue
+rysowanie.fillStyle = "rgb(249,218,255)";    
+rysowanie.fillRect(0,0,600, 200);
+
+</script>
+
+</body> 
+</html>
